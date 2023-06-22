@@ -39,7 +39,7 @@ import pandas as pd
 import numpy as np
 from sklearn.preprocessing import StandardScaler
 ```
-2. Call the data_preprocessing_pipeline function with your dataset:
+2. Call the **data_preprocessing_pipeline** function with your dataset:
 ``` shell
 # Load your dataset using pandas
 data = pd.read_csv('your_dataset.csv')
@@ -48,7 +48,7 @@ data = pd.read_csv('your_dataset.csv')
 preprocessed_data = data_preprocessing_pipeline(data)
 ```
 
-3. The preprocessed_data variable now contains the preprocessed dataset.
+3. The **preprocessed_data** variable now contains the preprocessed dataset.
 
 ## Contributing
 Contributions to this project are welcome. If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
@@ -57,6 +57,6 @@ Contributions to this project are welcome. If you find any issues or have sugges
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Acknowledgments
-The pandas library for data manipulation and analysis.
-The numpy library for numerical computing in Python.
+The pandas library for data manipulation and analysis.<br>
+The numpy library for numerical computing in Python.<br>
 The scikit-learn library for machine learning and data preprocessing.
